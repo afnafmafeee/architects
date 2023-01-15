@@ -321,9 +321,11 @@ form > textarea {
 @media screen and (max-width:576px) {
     .container {
         max-width: 100%;
+        padding: 0px 20px;
     }
     nav {
         flex-direction: column;
+        justify-content: center;
     }
     .nav__item {
         flex-direction: column;
@@ -344,11 +346,16 @@ form > textarea {
     .fact__items{
         flex-direction: column;
     }
+    .fact__item {
+        margin-bottom: 20px;
+    }
     .logo__area {
         flex-direction: column;
+        gap: 20px;
     }
     .inner__contact {
         flex-direction: column-reverse;
+        padding: 0 20px;
     }
 
 }
