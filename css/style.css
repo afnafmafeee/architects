@@ -226,9 +226,16 @@ section#fact {
 .fact__item {
         text-align: center;
         padding: 45px 35px;
-        border: 1px solid;
         border-radius: 8px;
+       position: relative;
+       transition: all .5s ease-in-out;
  }
+.fact__item:hover{
+    transform: scale(.8);
+    box-shadow: 0px 0px 60px #ff8f0e96  inset;
+
+    
+}
 
 .fact__item img {
     width: 45px;
