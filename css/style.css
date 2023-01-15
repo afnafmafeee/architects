@@ -289,7 +289,8 @@ section#fact {
      margin-top: 53px;
 }
 .map__area iframe {
-    border-radius: 18px;
+   width: 600px;
+   height: 450px;
 }
 form {
     display: flex;
@@ -347,11 +348,11 @@ form > textarea {
     .container {
         max-width: 100%;
         padding: 0px 20px;
-        margin: 0px auto;
     }
     .common_title > h2 {
         font-size: 2rem;
     }
+    /* Header */
     #header {
         padding: 10px;
     }
@@ -381,6 +382,9 @@ form > textarea {
     .hero__area p {
         width: 100%;
     }
+    /*********************
+     Feaures 
+     **************************/
     .features__text h2{
         font-size: 2rem;
     }
@@ -400,6 +404,9 @@ form > textarea {
     .features__img img {
         width:300px;
     }
+    /*********************
+     Main Feaures 
+     **************************/
     .main__features {
         flex-direction: column;
         margin-top: 35px;
@@ -422,6 +429,9 @@ form > textarea {
     .exp_area > h4 {
         font-size: 1rem;
     }
+    /*********************
+    Fact
+     **************************/
     #fact {
         margin-top: 40px;
     }
@@ -432,6 +442,9 @@ form > textarea {
     .fact__item {
         margin-bottom: 20px;
     }
+    /*********************
+    Logo
+     **************************/
     .sponsor p {
         margin: 20px auto;
     }
@@ -443,12 +456,19 @@ form > textarea {
     .logo__area img {
         max-width: 100px;
     }
+    /*********************
+     Contact 
+     **************************/
     .contact {
         margin: 20px auto;
     }
     .inner__contact {
         flex-direction: column-reverse;
         padding: 0 20px;
+      
+    }
+    .map__area iframe {
+        max-width: 500px;
     }
     form {
         align-items: center;
@@ -460,6 +480,9 @@ form > textarea {
     display: block;
     margin: 0 auto;
    }
+   /*********************
+     Footer
+     **************************/
    .footer__div {
     background: gray;
     margin-bottom: 50px;
