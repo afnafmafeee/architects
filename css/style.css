@@ -345,6 +345,9 @@ form > textarea {
     .common_title > h2 {
         font-size: 2rem;
     }
+    #header {
+        padding: 10px;
+    }
     nav {
         flex-direction: column;
         justify-content: center;
@@ -365,8 +368,8 @@ form > textarea {
         margin-top: 25px;
     }
     .hero__area h1 {
-        font-size: 2.93rem;
-        line-height: 46px;
+        font-size: 2.99rem;
+        line-height: 50px;
     }
     .hero__area p {
         width: 100%;
@@ -393,6 +396,7 @@ form > textarea {
     .main__features {
         flex-direction: column;
         margin-top: 35px;
+        gap: 30px;
     }
     .main__features__text h2{
         font-size: 2rem;
